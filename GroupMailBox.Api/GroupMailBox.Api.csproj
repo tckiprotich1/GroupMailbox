@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GroupMailBox.Contracts\GroupMailBox.Contracts.csproj" />
+    <ProjectReference Include="..\GroupMailBox.Application\GroupMailBox.Application.csproj" />
+    <ProjectReference Include="..\GroupMailBox.Infastructure\GroupMailBox.Infastructure.csproj" />
+  </ItemGroup>
+
 </Project>
