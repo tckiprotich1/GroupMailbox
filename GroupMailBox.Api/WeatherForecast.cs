@@ -1,4 +1,4 @@
-namespace GroupMailBox.Presentation.Data;
+namespace GroupMailBox.Api;
 
 public class WeatherForecast
 {
