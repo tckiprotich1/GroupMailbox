@@ -13,5 +13,10 @@
     <ProjectReference Include="..\GroupMailBox.Application\GroupMailBox.Application.csproj" />
     <ProjectReference Include="..\GroupMailBox.Infastructure\GroupMailBox.Infastructure.csproj" />
   </ItemGroup>
+  
+    <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
 
 </Project>
